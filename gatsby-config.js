@@ -5,6 +5,7 @@ require('dotenv').config({
 })
 
 module.exports = {
+  pathPrefix: '/shopify-store',
   siteMetadata: {
     title: `Gatsby Shopify`,
     description: `Description`,
